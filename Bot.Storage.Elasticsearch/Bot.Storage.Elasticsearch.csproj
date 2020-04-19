@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-  	<Title>ClerkApp.BotStorage.Elasticsearch</Title>
+  	<Title>ClerkApp.Bot.Storage.Elasticsearch</Title>
 	<Description>Elasticsearch storage for Bot Builder v4 .NET SDK </Description>
-	<PackageId>ClerkApp.BotStorage.Elasticsearch</PackageId>
-	<Version>1.0.0</Version>
+	<PackageId>ClerkApp.Bot.Storage.Elasticsearch</PackageId>
+	<Version>1.0.1</Version>
 	<Authors>logalex96</Authors>
 	<Company>ClerkApp</Company>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
