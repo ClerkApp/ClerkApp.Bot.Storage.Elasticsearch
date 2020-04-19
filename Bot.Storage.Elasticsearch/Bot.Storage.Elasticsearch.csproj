@@ -1,6 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+  	<Title>ClerkApp.BotStorage.Elasticsearch</Title>
+	<Description>Elasticsearch storage for Bot Builder v4 .NET SDK </Description>
+	<PackageId>ClerkApp.BotStorage.Elasticsearch</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>logalex96</Authors>
+	<Company>ClerkApp</Company>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<RepositoryUrl>https://github.com/ClerkApp/ClerkApp.Bot.Storage.Elasticsearch</RepositoryUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 

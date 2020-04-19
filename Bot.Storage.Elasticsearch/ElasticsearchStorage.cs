@@ -90,7 +90,7 @@ namespace Bot.Storage.Elasticsearch
             foreach (var key in keys)
             {
                 await elasticClient.DeleteAsync<DocumentItem>(SanitizeKey(key), d => d
-                    .Index(indexName).Refresh(Refresh.True), cancellationToken).ConfigureAwait(false);
+                    .Index(indexToUse).Refresh(Refresh.True), cancellationToken).ConfigureAwait(false);
             }
         }
 
@@ -120,7 +120,7 @@ namespace Bot.Storage.Elasticsearch
             {
                 var searchResponse = await elasticClient.SearchAsync<DocumentItem>(
                     s => s
-                .Index(indexName)
+                .Index(indexToUse)
                 .Sort(ss => ss
                 .Descending(p => p.Timestamp))
                 .Size(1)
